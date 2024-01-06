@@ -1,3 +1,16 @@
 {
-  "style":  "new-york"
+  "style": "new-york",
+  "tailwind": {
+    "config": "tailwind.config.ts",
+    "css": "@/app/ui/global.css",
+    "baseColor": "gray",
+    "cssVariables": true
+  },
+  "rsc": true,
+  "tsx": true,
+  "aliases": {
+    "utils": "@/app/lib/ui-utils",
+    "components": "@/app/ui/components",
+    "ui": "@/app/ui/components"
+  }
 }
